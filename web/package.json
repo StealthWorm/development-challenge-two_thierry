@@ -1,0 +1,49 @@
+{
+  "name": "parking",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.11.3",
+    "@radix-ui/react-dialog": "^1.0.2",
+    "axios": "^1.2.0",
+    "classnames": "^2.3.2",
+    "pathseg": "^1.2.1",
+    "phosphor-react": "^1.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.39.5",
+    "react-router-dom": "^6.6.1",
+    "react-tsparticles": "^2.7.1",
+    "react-uuid": "^2.0.0",
+    "sinon-chai": "^3.7.0",
+    "tailwindcss-classnames": "^3.0.7",
+    "tsparticles": "^2.7.1",
+    "uuid": "^9.0.0",
+    "vitest-react": "^0.9.5"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^13.4.0",
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@types/uuid": "^9.0.0",
+    "@vitejs/plugin-react": "^2.2.0",
+    "autoprefixer": "^10.4.13",
+    "jsdom": "^21.0.0",
+    "postcss": "^8.4.19",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3",
+    "vite-test-utils": "^0.6.0",
+    "vitest": "^0.27.1"
+  }
+}
