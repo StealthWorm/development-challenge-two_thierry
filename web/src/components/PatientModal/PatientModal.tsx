@@ -4,7 +4,7 @@ import { v4 as uuidv4 } from 'uuid';
 import axios from "axios";
 import { useState, FormEvent, useEffect } from 'react';
 
-import { Patient } from '../Patients';
+import { Patient } from '../Patients/Patients';
 import { Check } from "phosphor-react";
 import { useForm, FieldValues } from "react-hook-form";
 
